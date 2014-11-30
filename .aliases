@@ -145,16 +145,3 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
-
-# make & change into the directory
-function take() {
-  mkdir -p "$1" && cd "$1"
-}
-
-# Changes directory into the last focused finder window
-function cdf() {
-  cd "$(osascript -e 'tell application "Finder"' \
-    -e 'set myname to POSIX path of (target of window 1 as alias)' \
-    -e 'end tell' 2>/dev/null)"
-}
-
