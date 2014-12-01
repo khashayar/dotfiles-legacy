@@ -22,6 +22,7 @@ brew tap caskroom/versions
 brew cask install bartender
 brew cask install caffeine
 brew cask install dash
+brew cask install divvy
 brew cask install dropbox
 brew cask install firefox
 brew cask install flux
