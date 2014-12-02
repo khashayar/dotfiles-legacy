@@ -19,6 +19,7 @@ brew tap caskroom/versions
 # export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Install applications
+brew cask install anki
 brew cask install bartender
 brew cask install caffeine
 brew cask install dash
