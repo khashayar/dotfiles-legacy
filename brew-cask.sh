@@ -32,6 +32,7 @@ brew cask install google-chrome-canary
 brew cask install mou
 brew cask install mysqlworkbench
 brew cask install onepassword
+brew cask install plex-media-server
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
 brew cask install slack
 brew cask install skype
