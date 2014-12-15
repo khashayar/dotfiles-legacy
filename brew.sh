@@ -61,6 +61,7 @@ brew install zopfli
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
 brew install node
+brew install phantomjs
 
 # Install Cask
 brew install caskroom/cask/brew-cask
