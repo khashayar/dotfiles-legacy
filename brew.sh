@@ -39,13 +39,11 @@ brew install wget --with-iri
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
-# brew install homebrew/php/php55 --with-gmp
 
 
 # Install other useful binaries.
 brew install ack
 brew install android-sdk
-# brew install exiv2
 brew install git
 brew install imagemagick --with-webp
 brew install lynx
@@ -61,10 +59,16 @@ brew install zopfli
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
 brew install node
-brew install phantomjs
 
-# Install Cask
-brew install caskroom/cask/brew-cask
+# Install AWS CLI and Docker
+brew install awscli
+brew install docker docker-machine
+
+brew tap codekitchen/dinghy
+brew install dinghy
+
+# Homebrew Cask
+brew tap caskroom/cask
 
 # Remove outdated versions from the cellar.
 brew cleanup
