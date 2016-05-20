@@ -62,10 +62,6 @@ brew install node
 
 # Install AWS CLI and Docker
 brew install awscli
-brew install docker docker-machine
-
-brew tap codekitchen/dinghy
-brew install dinghy
 
 # Homebrew Cask
 brew tap caskroom/cask
