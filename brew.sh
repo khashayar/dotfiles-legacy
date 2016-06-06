@@ -14,34 +14,43 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-# Install GNU core utilities (those that come with OS X are outdated).
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+# install GNU core utilities (those that come with OS X are outdated).
+# don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
 sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
-# Install some other useful utilities like `sponge`.
+# install some other useful utilities like `sponge`.
 brew install moreutils
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
+# install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
-# Install GNU `sed`, overwriting the built-in `sed`.
+# install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
-# Install Bash 4.
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
-# running `chsh`.
-brew install bash
-brew install bash-completion
 
-# Install `wget` with IRI support.
+# install Bash 4.
+# NB! don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
+brew install bash bash-completion
+
+# install and use zsh.
+brew install zsh zsh-completions
+chsh -s $(which zsh)
+
+# install tmux
+brew install tmux
+
+# install stow
+brew install stow
+
+# install `wget` with IRI support.
 brew install wget --with-iri
 
 
-# Install more recent versions of some OS X tools.
+# install more recent versions of some OS X tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
 
 
-# Install other useful binaries.
+# install other useful binaries.
 brew install ack
 brew install android-sdk
 brew install git
@@ -56,15 +65,18 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 
-# Install Node.js. Note: this installs `npm` too, using the recommended
+# install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
 brew install node
 
-# Install AWS CLI and Docker
+# install AWS CLI and Docker
 brew install awscli
 
-# Homebrew Cask
+# homebrew Cask
 brew tap caskroom/cask
 
-# Remove outdated versions from the cellar.
+# remove outdated versions from the cellar.
 brew cleanup
+
+# used by colorize zsh plugin
+easy_install Pygments
