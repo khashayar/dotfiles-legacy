@@ -48,7 +48,7 @@ ZSH_CUSTOM=~/Projects/dotfiles/oh-my-zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aws bower brew colored-man-pages colorize command-not-found docker git history-substring-search sudo tmux web-search)
+plugins=(aws bower brew colored-man-pages colorize command-not-found docker git history-substring-search sudo web-search)
 
 # User configuration
 

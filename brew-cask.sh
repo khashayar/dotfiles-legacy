@@ -23,23 +23,16 @@ brew cask install anki
 brew cask install bartender
 brew cask install caffeine
 brew cask install dash
-brew cask install divvy
-brew cask install dropbox
-brew cask install firefox
-brew cask install flux
 brew cask install google-chrome
 brew cask install google-chrome-canary
+brew cask install monitorcontrol
 brew cask install mou
-brew cask install mysqlworkbench
 brew cask install onepassword
-brew cask install plex-media-server
+brew cask install osxfuse
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
+brew cask install rectangle
 brew cask install slack
 brew cask install skype
-brew cask install sublime-text3
-brew cask install testflight
-brew cask install utorrent
-brew cask install vagrant
 brew cask install viber
 brew cask install virtualbox
 brew cask install vlc

@@ -37,6 +37,7 @@ brew install ack
 brew install android-sdk
 brew install awscli
 brew install git
+brew install htop
 brew install imagemagick --with-webp
 brew install lynx
 brew install ngrok
@@ -46,6 +47,8 @@ brew install pigz
 brew install python
 brew install pv
 brew install rename
+brew install screen
+brew install sshfs
 brew install stow
 brew install tmux
 brew install tree
@@ -56,7 +59,6 @@ brew install zopfli
 
 # install more recent versions of some OS X tools.
 brew install homebrew/dupes/grep
-brew install homebrew/dupes/screen
 
 # homebrew Cask
 brew tap caskroom/cask

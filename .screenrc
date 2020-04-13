@@ -1,7 +1,7 @@
 # Make it a login shell...
-defshell -bash
+#defshell -bash
 # ...or
-# shell -$SHELL
+shell -$SHELL
 
 # Disable the startup message
 startup_message off
