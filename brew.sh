@@ -63,6 +63,14 @@ brew install homebrew/dupes/grep
 # homebrew Cask
 brew tap caskroom/cask
 
+# install quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlimagesize
+brew cask install webpquicklook
+
 # remove outdated versions from the cellar.
 brew cleanup
 

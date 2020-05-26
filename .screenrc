@@ -14,3 +14,6 @@ termcapinfo xterm* ti@:te@
 
 # Always start `screen` with UTF-8 enabled (`screen -U`)
 defutf8 on
+
+# When this command is enabled, regions that have been split in various ways can be selected by pointing to them with a mouse and left-clicking them
+mousetrack on
